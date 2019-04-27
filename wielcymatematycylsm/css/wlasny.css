@@ -1,0 +1,365 @@
+﻿/* Własny CSS */ 
+
+/* Główne*/ 
+body {
+ font-family: 'Open Sans';
+ color: #34495e;
+ background-color: #ffffff;
+}
+
+.btn-success {
+ background-color: #48c9b0;
+ border-color: #48c9b0;
+ margin-top: 4rem;
+}
+.btn-success:hover {
+ background-color: #48c9b0;
+ border-color: #48c9b0;
+}
+/* Typografia */
+h1 {
+ font-size: 8rem;
+ opacity: 0.7;
+}
+h2 {
+ font-size:  4rem;
+ line-height: 6rem;
+ opacity: 0.9;
+}
+h3 {
+ font-size:  2.5rem;
+ line-height: 3rem;
+}
+h4 {
+ font-size:  2rem;
+ line-height: 3rem;
+ color:#a4abb3;	
+}
+.naglowek_czerwony {
+ color:  #fc4349;	
+}
+a:hover {
+ text-decoration: none;
+}
+.glyphicon {
+ color: #6dbcdb;
+}
+/* Menu Górne*/
+#menu {
+ background-color: #fff;
+ color: #000;
+ box-shadow: 0 -3px 30px 0;
+}
+.navbar {
+ background-color: #fff;
+ color: #000;
+ font-size: 1.7rem;
+ padding-top: 3rem;
+ border-color: #fff;
+}
+.navbar-outer {
+ width: 1200px;
+}
+.navbar-inverse .navbar-nav > li > a {
+ background-color: #fff;
+ color: #000;
+ margin-left: 5px;
+ border: 1px solid transparent;
+ line-height: 1rem;
+}
+.navbar-inverse .navbar-nav > li.active > a,
+.navbar-inverse .navbar-nav > li.active > a:hover,
+.navbar-inverse .navbar-nav > li.active > a:visited,
+.navbar-inverse .navbar-nav > li.active > a:active,
+.navbar-inverse .navbar-nav > li.active > a:link,
+.navbar-inverse .navbar-nav > li.active > a:focus {
+ color: #ffffff;
+ background-color: #6dbcdb;
+ border-color: #6dbcdb;
+}
+.nav-pills {
+ text-align: center;
+ padding-bottom: 2rem;
+}
+.navbar-inverse .navbar-nav > li > a {
+ background-color: #fff;
+ color: #6dbcdb;
+ display: block;
+ border: 1px solid transparent;
+ border-color: #6dbcdb;
+ line-height: 1rem;
+ border-radius: 4px;
+ transition: all 0.7s ease;
+}
+.navbar-inverse .navbar-nav > li > a:hover {
+ background-color: #b6dded;
+ color: #fff;
+ display: block;
+ border: 1px solid transparent;
+ border-color: #b6dded;
+ line-height: 1rem;
+ border-radius: 4px;
+ transition: all 0.7s ease;
+}
+.navbar-inverse .navbar-toggle {
+ border-color: #6dbcdb;
+ color: #6dbcdb;
+}
+#logo img {
+ display: block;
+ float: none;
+ margin-top: -1rem;
+}
+/* Efekt Carousel pełna szerokośc okna */
+.film {
+  display: inline-block;
+  padding: 10px;
+  color: #fff;
+  background: #6dbcdb;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+.full-screen {
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+/* Szkola */
+#szkola {
+ padding-top: 6rem;
+ padding-bottom: 3rem;
+ text-align: center;
+ background-color: #e0e0e0;
+}
+.szkola_naglowek {
+ padding-bottom: 5rem;	
+}
+.nav-pills > li {
+ float: none;
+ padding-left: 1rem;
+ display: inline-block;
+}
+.nav-pills > li > a {
+ border: 1px solid #6dbcdb;
+ color: #6dbcdb;
+}
+.nav-pills > li.active > a,
+.nav-pills > li.active > a:focus,
+.nav-pills > li.active > a:hover {
+ color: #E0E0E0;
+ background-color: #6dbcdb;
+}
+.nav-pills > li > a:hover {
+ border: 1px solid #6dbcdb+;
+ background-color: #E0E0E0;
+}
+.nav-pills {
+ text-align: center;
+ padding-bottom: 2rem;
+}
+.zespol_ikonki a:hover span {
+ -webkit-animation: rubberBand .8s;
+ animation: rubberBand .8s;
+}
+.zespol_przyciski a:hover {
+ -webkit-animation: rotateOut .2s;
+ animation: rotateOut .5s;
+}
+/* Znani */
+#znani {
+ padding-top: 6rem;
+ padding-bottom: 3rem;
+ text-align: center;	
+}
+.znani_naglowek {
+ padding-bottom: 5rem;
+}
+.znani_foto {
+ padding: 1.7rem;
+ margin: 0 auto;
+ width: 26rem;
+}
+#znani a:hover img {
+ -webkit-animation: pulse .9s;
+ animation: pulse .9s;
+}
+#znani a:hover span {
+ -webkit-animation: flip .5s;
+ animation: flip .5s;
+}
+#znani {
+ background-color: #ffffff;
+}
+/* Pieniadze */
+#pieniadze {
+ padding-top: 6rem;
+ padding-bottom: 3rem;
+ text-align: center;	
+}
+.pieniadze_naglowek {
+ padding-bottom: 5rem;
+}
+.pieniadze_zdjecia {
+ margin-bottom: 1.5rem;
+}
+.pieniadze_zdjecia a:hover img {
+ -webkit-animation: pulse .9s;
+ animation: pulse .9s;
+ opacity: 0.8;
+}
+/* Podziemia */
+#podziemia {
+ padding-top: 6rem;
+ padding-bottom: 3rem;
+ text-align: center;
+ height: 40rem;
+ background-color: #000000;
+ width: 100%;
+ margin: 0 auto;
+ display: inline-block;
+ background: url('../images/podziemia_tlo.jpg') repeat 0 1000px fixed;
+}
+#podziemia h2 {
+ color: #ffffff;
+ opacity: 0.7;
+ font-weight: 600;
+ margin-bottom: 4rem;
+}
+#podziemia p {
+ color: #ffffff;
+ opacity: 0.6;
+ font-size: 1.2em;
+ margin-bottom: 4rem;
+}
+#podziemia {
+ background-color: #E0E0E0;
+}
+/* Autorzy */
+#autorzy button:hover {
+ -webkit-animation: wobble .9s;
+ animation: wobble .9s;
+}
+#autorzy {
+ padding-top: 6rem;
+ padding-bottom: 3rem;
+ text-align: center;	
+}
+.autorzy_naglowek {
+ padding-bottom: 5rem;
+}
+#autorzy {
+ background-color: #E0E0E0;	
+}
+/* Stopka */
+#stopka {
+ padding-top: 3rem;
+ padding-bottom: 6rem;
+ text-align: right;
+ background-color: #000000;
+ color: #ffffff;	
+}
+#stopka h5 {
+ color: #ffffff;		
+}
+/* Pasek Foto */
+.photo-bar-single {
+ text-align:center;
+}
+.photo-bar-single h4 {
+ transition:all .2s ease-in-out;
+ font-size:16px;
+ font-weight:600;
+ margin-bottom:10px;
+ text-transform:uppercase;
+ cursor:pointer
+}
+.photo-bar-single h4:hover {
+ color:#70ca63;
+}
+.photo-bar-single h5 {
+ font-size:13px;
+ font-weight:300;
+ color:#a9a9ac;
+}
+.photo-bar-single img {
+ transition:all .2s ease-in-out;
+ -webkit-backface-visibility:hidden
+}
+.photo-bar-single img:hover {
+ opacity:.65;
+}
+.photo-bar-image {
+ margin:0;
+ background:#222532;
+}
+.photo-bar-info {
+ padding:30px 0 0;
+ min-height:105px;
+ border-left:1px solid #efefef;
+}
+.carousel-inner > .item > a > img, .carousel-inner > .item > img, .img-responsive {
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
+.carousel-inner > .item > a > img, .carousel-inner > .item > img, .img-responsive {
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
+img {
+    border: 0;
+}
+img {
+    vertical-align: middle;
+}
+*, ::after, ::before {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+/* info */
+.info {
+ width: 100%;
+ padding: 0;
+ margin: 0;
+}
+video {
+ width: 100%;
+ padding: 0;
+ margin: 0;
+}
+.video-description {
+ text-align: center;
+}
+.video-description p {
+ font-size: 1em;
+ color: #34495e;
+ line-height: 2;
+}
+.video-description h2 {
+ font-size: 36px;
+ font-weight: 700;
+ border-top: 3px solid #34495e;
+ border-bottom: 3px solid #34495e;
+}
+.video-description h2 {
+ color: #000;
+ text-shadow: 1px 1px 1px rgba(0,0,0,.2);
+ text-transform: uppercase;
+}
+.video-description h2 {
+ font-size: 36px;
+ font-weight: 700;
+ border-top: 3px solid #34495e;
+ border-bottom: 3px solid #34495e;
+}
+.video-description h2 {
+ color: #34495e;
+ text-shadow: 1px 1px 1px rgba(0,0,0,.2);
+ text-transform: uppercase;
+}
+#info {
+ background-color: #E0E0E0;
+ padding: 2rem;
+} 
