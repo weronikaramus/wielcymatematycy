@@ -1,4 +1,4 @@
-﻿/* Własny CSS */ 
+/* Własny CSS */ 
 
 /* Główne*/ 
 body {
@@ -129,7 +129,7 @@ a:hover {
  padding-top: 6rem;
  padding-bottom: 3rem;
  text-align: center;
- background-color: #e0e0e0;
+ background-color: #ffffff;
 }
 .szkola_naglowek {
  padding-bottom: 5rem;	
@@ -188,13 +188,14 @@ a:hover {
  animation: flip .5s;
 }
 #znani {
- background-color: #ffffff;
+ background-color: #e0e0e0;
 }
 /* Pieniadze */
 #pieniadze {
  padding-top: 6rem;
  padding-bottom: 3rem;
- text-align: center;	
+ text-align: center;
+ background-color: #e0e0e0;
 }
 .pieniadze_naglowek {
  padding-bottom: 5rem;
@@ -207,8 +208,8 @@ a:hover {
  animation: pulse .9s;
  opacity: 0.8;
 }
-/* Podziemia */
-#podziemia {
+/* dzialania */
+#dzialania {
  padding-top: 6rem;
  padding-bottom: 3rem;
  text-align: center;
@@ -219,22 +220,39 @@ a:hover {
  display: inline-block;
  background: url('../images/podziemia_tlo.jpg') repeat 0 1000px fixed;
 }
-#podziemia h2 {
+#dzialania h2 {
  color: #ffffff;
  opacity: 0.7;
  font-weight: 600;
  margin-bottom: 4rem;
 }
-#podziemia p {
+#dzialania p {
  color: #ffffff;
  opacity: 0.6;
  font-size: 1.2em;
  margin-bottom: 4rem;
 }
-#podziemia {
+#dzialania {
  background-color: #E0E0E0;
 }
-/* Autorzy */
+
+/* mapa */
+#mapa button:hover {
+ -webkit-animation: wobble .9s;
+ animation: wobble .9s;
+}
+#mapa {
+ padding-top: 6rem;
+ padding-bottom: 3rem;
+ text-align: center;	
+}
+.mapa_naglowek {
+ padding-bottom: 5rem;
+}
+#mapa {
+ background-color: #E0E0E0;	
+}
+/* autorzy */
 #autorzy button:hover {
  -webkit-animation: wobble .9s;
  animation: wobble .9s;
@@ -248,8 +266,9 @@ a:hover {
  padding-bottom: 5rem;
 }
 #autorzy {
- background-color: #E0E0E0;	
+ background-color: #ffffff;	
 }
+
 /* Stopka */
 #stopka {
  padding-top: 3rem;
@@ -360,6 +379,10 @@ video {
  text-transform: uppercase;
 }
 #info {
- background-color: #E0E0E0;
+ background-color: #ffffff;
  padding: 2rem;
 } 
+
+.card my-4 {
+ position: fixed; 
+}
